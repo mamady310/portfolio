@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./Home"
 import Nav from "../src/Nav"
-import About from "./About"
+import About from "../src/About"
 function App() {
   return (
     <Router>

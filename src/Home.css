@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 253, 253)
+}
+.fade {
+    transition-delay:3000;
+}
+.me {
+    height: 35%;
+    width: 40%;
+    margin-left: 27.5%;
+    display: flex;
+    justify-content: center;
+    transition-delay: 3000ms;
+}
