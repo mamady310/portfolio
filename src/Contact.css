@@ -1,0 +1,49 @@
+.contact-info {
+    margin-top: 100px;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 345px;
+    height: 700px;
+    width: 700px;
+   
+}
+.phone {
+    height: 150px;
+    width: 150px;
+}
+.linkedin {
+    height: 150px;
+    width: 150px;
+}
+.gmail {
+    height: 150px;
+    width: 150px;
+}
+.git {
+    height: 150px;
+    width: 150px;
+} 
+
+@media only screen and (max-device-width: 667px) {
+
+    .contact-info {
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .icon-links {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 200px;
+        height: 700px;
+        width: 700px;  
+}
+    .phone {
+       display: block;
+    }
+}

@@ -1,0 +1,11 @@
+.projs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+.breweries1 {
+    height: 300px;
+    width: 500px;
+    border: 2px solid;
+}
