@@ -1,11 +1,24 @@
+.projects {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 200px;
+    color: rgb(183, 39, 80);
+}
 .projs {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-around;
 }
 .breweries1 {
-    height: 300px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
     border: 2px solid;
+    border-color: rgb(183, 39, 80);
 }
+
+@media only screen and (max-device-width: 667px) {
+.projects {
+    font-size: 25px;
+}       
+    }

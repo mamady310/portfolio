@@ -10,10 +10,17 @@ class Home extends React.Component {
     render() {
        return (
          <div>
-             <h1>Hello World</h1>
+             {/* <h1 className="hello">Hello World</h1> */}
+             <div className="content">
              <FadeIn className="fade">
              <img className="me" src={Photo} alt="Smiley face"/>
              </FadeIn>
+             <div className="intro">
+               <p className="title">Mamady Sillah</p>
+               <h2 className="sub">Web Developer  |  Northern Virginia</h2>
+             </div>
+
+             </div>
 
          </div>
        )

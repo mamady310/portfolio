@@ -9,10 +9,10 @@ class Projects extends React.Component {
     render() {
        return (
          <div>
-             <h1 className="projects">Projects</h1>
+             <p className="projects">Projects</p>
              <div className="projs">
-             <a href="https://breweries-back.herokuapp.com/" target="_blank"><img className="breweries1" src={Breweries1} alt="Heroku"/> </a>
-             <a href="https://breweries-front-f8n2fca6h.now.sh/" target="_blank"><img className="breweries1" src={Breweries2} alt="Heroku"/> </a>
+             <a href="https://breweries-back.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="breweries1" src={Breweries1} alt="Heroku"/> </a>
+             <a href="https://breweries-front-f8n2fca6h.now.sh/" target="_blank" rel="noopener noreferrer"><img className="breweries1" src={Breweries2} alt="Heroku"/> </a>
              </div>
            
 

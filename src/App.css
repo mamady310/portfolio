@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Lacquer|Roboto&display=swap');
+ 
+body {
+    background-image: url(./Images/coffee2.jpeg);
+}
 
-h1{
-    text-align: center;
-    font-family: 'Caveat', cursive;
+@media only screen and (max-device-width: 667px) {
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
 }

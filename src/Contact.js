@@ -1,22 +1,22 @@
 
 import React from "react";
 import "../src/Contact.css"
-import Linkedin from "./Images/linkedin.png"
+import Resume from "./Images/resume.png"
+import Linkedin from "./Images/in.png"
 import Gmail1 from "./Images/gmail1.png"
-import Github from "./Images/github.png"
-import Phone from "./Images/iphone.jpeg"
+import Phone from "./Images/download.png"
 
 
 class Contact extends React.Component {
     render() {
        return (
          <div>
-          <h1 className="contact-info">Contact Me</h1>
+          <p className="contact-info">Contact Info</p>
           <div className="icon-links">
+          <a href="https://docs.google.com/document/d/13ndy77xrDsu55eJjq7dDEOdeA1ufi9zASpqQKRtBerg/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="resume" src={Resume} alt="resume"/> </a>     
           <a href="tel:703-973-7366" ><img className="phone" src={Phone} alt="phone"/> </a>    
-          <a href="https://www.linkedin.com/in/mamadysillah/" target="_blank"><img className="linkedin" src={Linkedin} alt="Linkedin"/> </a>
-          <a href="mailto:mamady310@gmail.com" target="_blank"><img className="gmail" src={Gmail1} alt="Linkedin"/> </a>
-          <a href="https://github.com/mamady310?tab=repositories" target="_blank"><img className="git" src={Github} alt="Github"/> </a>
+          <a href="https://www.linkedin.com/in/mamadysillah/" target="_blank" rel="noopener noreferrer"><img className="linkedin" src={Linkedin} alt="Linkedin"/> </a>
+          <a href="mailto:mamady310@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={Gmail1} alt="Linkedin"/> </a>
           </div>
 
          </div>

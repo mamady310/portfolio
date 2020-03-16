@@ -1,11 +1,12 @@
 .container {
     display: flex;
+    flex-direction: row;
 }
 .aboutme {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    align-self: flex-start;
+    margin: 0px 0px 0px 10px;
 }
 .content {
     padding-right: 7%;
@@ -13,6 +14,8 @@
 h1 {
     font-size: 50px;
     margin-right: 40px;
+    font-weight: normal;
+    color: rgb(183, 39, 80);
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
@@ -20,12 +23,18 @@ p {
     text-indent: 15%;
 }
 @media only screen and (max-device-width: 667px) {
+   
     .aboutme{
-        height: 150px;
-        width: 150px;
+        display: none;
+    }
+    .content {
+        margin: 0px 15px;
     }
     h1 {
         font-size: 25px;
         margin-right: 40px;
+    }
+    p {
+        font-size: 15px;
     }
 }    

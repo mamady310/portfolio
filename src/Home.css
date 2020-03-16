@@ -1,16 +1,57 @@
 body {
     background-color: rgb(253, 253, 253)
 }
+.hello {
+    color: white;
+}
+.intro {
+    height: 600px;
+    width: 700px;
+    text-align: center;
+}
+.title {
+    color: rgb(183, 39, 80);
+    font-size: 100px;
+}
+
+.content {
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
 .fade {
     transition-delay:3000;
 }
 .me {
-    height: 35%;
-    width: 40%;
-    margin-left: 27.5%;
+    height: 500px;
+    width: 500px; 
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    border-radius: 50%;
     transition-delay: 3000ms;
+    margin: 0px 0px 0px 10px;
 }
+
 @media only screen and (max-device-width: 667px) {
+.content {
+    height: 300px;
+    width: 300px;
+}    
+.intro {
+    height: 200px;
+    width: 200px;
+}    
+.me {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.title {
+    font-size: 25px;
+}
+.sub {
+    font-size: 10px;
+}
+    
 }    
