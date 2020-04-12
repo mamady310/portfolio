@@ -50,19 +50,20 @@
     transform: scale(1.5); 
 }
 
-@media only screen and (max-device-width: 667px) {
+@media only screen and (max-device-width: 425px) {
 
 .contact-info {
+        text-align: center;
         margin-top: 50px;
         margin-left: 100px;
-        font-size: 25px;;
+        font-size: 20px;;
 }
 .icon-links {
         display: flex;
         justify-content: center;
         justify-content: space-between;
         flex-direction: row;
-        margin-left: 50px;
+        margin-left: 30px;
         height: 350px;
         width: 350px;  
 }

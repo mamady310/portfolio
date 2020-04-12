@@ -1,3 +1,11 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -17,13 +25,13 @@ h1 {
     font-weight: normal;
     color: rgb(183, 39, 80);
 }
-p {
+.journey {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     text-indent: 15%;
 }
-@media only screen and (max-device-width: 667px) {
-   
+@media screen and (max-device-width: 425px) {
+  
     .aboutme{
         display: none;
     }

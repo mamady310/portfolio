@@ -33,7 +33,7 @@ body {
     margin: 0px 0px 0px 10px;
 }
 
-@media only screen and (max-device-width: 667px) {
+@media only screen and (max-device-width: 425px) {
 .content {
     height: 300px;
     width: 300px;

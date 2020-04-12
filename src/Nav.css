@@ -3,8 +3,8 @@
     color: black;
     display: flex;
     text-decoration: none;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     /* background-color: rgba(183, 39, 80, .2); */
     font-size: 30px;
     font-family: 'Caveat', cursive;
@@ -13,10 +13,10 @@ a{
     text-decoration: none;
   }
  
-  @media only screen and (max-device-width: 667px) {
+  @media only screen and (max-device-width: 425px) {
   .nav-links {
+     margin-left: 50px;
      font-size: 15px;
      width: 250px;
-     justify-content: space-between;
   }    
   }
