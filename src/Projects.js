@@ -7,6 +7,8 @@ import Person from "../src/Images/contact.png"
 
 
 class Projects extends React.Component {
+
+  
     render() {
        return (
          <div>
