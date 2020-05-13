@@ -3,7 +3,7 @@ import React from "react";
 import "../src/Projects.css";
 import Breweries1 from "../src/Images/breweries1.png";
 import Contact from "../src/Images/contactbook.jpg";
-import Person from "../src/images/person1.png"
+import Person from "../src/Images/contacts.png"
 
 
 class Projects extends React.Component {
