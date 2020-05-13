@@ -13,7 +13,7 @@ class Projects extends React.Component {
        return (
          <div>
              <p className="projects">Projects</p>
-             <div className="projs">
+             <div  className="projs">
               <div className="proj1">
              <a href="https://breweries-back.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="photo" src={Breweries1} alt="Heroku"/> </a>
              <p className="words">Mongo DB | Express.js <br />In this project I built a JSON API pulling data from an existing brewery API. I created my data model, seeded the raw data from the API, and then the information was then stored in my database. There is a create functionality that allows a user to add information using postman.</p>

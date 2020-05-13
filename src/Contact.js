@@ -13,7 +13,7 @@ class Contact extends React.Component {
          <div>
           <p className="contact-info">Contact Info</p>
           <div className="icon-links">
-          <a href="https://docs.google.com/document/d/13ndy77xrDsu55eJjq7dDEOdeA1ufi9zASpqQKRtBerg/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="resume" src={Resume} alt="resume"/> </a>     
+          <a href="https://docs.google.com/document/d/1Roqdjnalck4sseLJ_UWnWszlrjUVMtKLwlsfbCNqADc/edit" target="_blank" rel="noopener noreferrer"><img className="resume" src={Resume} alt="resume"/></a>     
           <a href="tel:703-973-7366" ><img className="phone" src={Phone} alt="phone"/> </a>    
           <a href="https://www.linkedin.com/in/mamadysillah/" target="_blank" rel="noopener noreferrer"><img className="linkedin" src={Linkedin} alt="Linkedin"/> </a>
           <a href="mailto:mamady310@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={Gmail1} alt="Linkedin"/> </a>
