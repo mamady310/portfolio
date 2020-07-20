@@ -6,6 +6,18 @@ body {
     background-size: cover;
 }
 
+.intro {
+    text-align: center;
+    margin-top: 100px;
+}
+.typed-heading {
+    font-size: 110px;
+}
+.typed-sub {
+    font-size: 50px;
+}
+
+
 @media only screen and (max-device-width: 425px) {
 body {
     height: 100%;
@@ -13,5 +25,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}    
+}   
+.intro {
+    margin-top: 30px;
+    margin-left: 30px;
+} 
+.typed-heading {
+    font-size: 50px;
+}
+.typed-sub {
+    font-size: 20px;
+}
 }

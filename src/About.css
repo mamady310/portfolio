@@ -31,9 +31,16 @@ h1 {
     text-indent: 15%;
 }
 @media screen and (max-device-width: 425px) {
-  
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
     .aboutme{
-        display: none;
+        /* display: none; */
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin: 0px 0px 0px 10px;
     }
     .content {
         margin: 0px 15px;
@@ -42,7 +49,7 @@ h1 {
         font-size: 25px;
         margin-right: 40px;
     }
-    p {
+    .journey {
         font-size: 15px;
     }
 }    
