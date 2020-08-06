@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Lacquer|Roboto&display=swap');
  
 body {
-    background-image: url(./Images/coffee2.jpeg);
-    /* background-image: url(https://images.unsplash.com/photo-1486639107311-064febaff1c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80); */
+    /* background-image: url(./Images/coffee2.jpeg); */
+    background-image: url(https://lh3.googleusercontent.com/proxy/WOqVkkLOmrjfqAJ4CQZmQiGQIBDbkg4SYzesc9fae1Wdf7wOBwkIH_t1UwW8Q9p_LtjE5-5dvw5byoJGVuxkbM2Hhlzh4IVOfkWm8BtJarSSexKZMPOpx3s9U4Cz9xcfPISHj5e6UPTkA60DV1zTUWr9WM8fWs97N5T1gpe2cr9-pTopccuUKWxqMkmjOgKn3vACPArZCzrwYZ9KrgQSNZFocTtL698dLrr90NXe);
     background-position: center;
     background-size: cover;
 }

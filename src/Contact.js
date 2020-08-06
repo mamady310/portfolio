@@ -4,7 +4,7 @@ import "../src/Contact.css"
 import Resume from "./Images/resume.png"
 import Linkedin from "./Images/in.png"
 import Gmail1 from "./Images/gmail1.png"
-import Phone from "./Images/download.png"
+// import Phone from "./Images/download.png"
 
 
 class Contact extends React.Component {
@@ -13,8 +13,8 @@ class Contact extends React.Component {
          <div>
           <p className="contact-info">Contact</p>
           <div className="icon-links">
-          <a href="https://docs.google.com/document/d/1Gw4tmtPhBv8cnV1aSYskhgy8W8Eh67DIauSAVbBm4A8/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="resume" src={Resume} alt="resume"/></a>     
-          <a href="tel:703-973-7366" ><img className="phone" src={Phone} alt="phone"/> </a>    
+          <a href="https://docs.google.com/document/d/1OQSSc8INMf6RYpfwKwI4uZoqUIU3UUzPi2hDMHoAbeg/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="resume" src={Resume} alt="resume"/></a>     
+          {/* <a href="tel:703-973-7366" ><img className="phone" src={Phone} alt="phone"/> </a>     */}
           <a href="https://www.linkedin.com/in/mamadysillah/" target="_blank" rel="noopener noreferrer"><img className="linkedin" src={Linkedin} alt="Linkedin"/> </a>
           <a href="mailto:mamady310@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={Gmail1} alt="Linkedin"/> </a>
           </div>

@@ -43,7 +43,8 @@
     width: 400px;
     padding: 15px;
     font-weight: bold;
-    background-color:  rgba(0, 0, 0, 0);
+    /* background-color: hsla(0, 100%, 90%, 0.3); */
+
 }
 .photo {
     height: 200px;
@@ -61,7 +62,7 @@ footer {
 } 
 .words {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     width: 200px;
     padding: 15px;
     /* font-weight: bold; */
