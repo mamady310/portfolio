@@ -35,7 +35,7 @@ class Projects extends React.Component {
              </p>
              </div>
              <div className="proj4">
-             <a href="https://hotel-rooms-three.vercel.app/rooms" target="_blank" rel="noopener noreferrer"><img className="photo" src={Hotel} alt="Netlify"/> </a>
+             <a href="https://hotel-rooms-three.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="photo" src={Hotel} alt="Netlify"/> </a>
              <p className="words">React.js <br />This project allows a user to find their ideal hotel using certain search parameters. I shared methods globally using react context instead of the traditional prop drilling from parent to child.  <br />
              <a href="https://github.com/mamady310/hotel-rooms" target="_blank" rel="noopener noreferrer"><GoMarkGithub size='2rem' /></a>
              </p>
